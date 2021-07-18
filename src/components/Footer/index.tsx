@@ -1,6 +1,5 @@
 import './styles.css'
 import linkedin from '../../assets/linkedin.svg';
-import insta from '../../assets/insta.svg';
 import github from '../../assets/github.svg';
 
 export function Footer() {
