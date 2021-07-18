@@ -1,13 +1,17 @@
-section.container {
+section.banner {
+  display: flex;
+  width: 100%;
   justify-content: flex-end;
+  align-items: center;
   padding: 64px 0;
+  position: relative;
 }
 
 aside {
   position: absolute;
   max-width: 245px;
   left: 0;
-  background-color: #fff;
+  background-color: var(--white);
   padding: 80px 0;
 }
 
