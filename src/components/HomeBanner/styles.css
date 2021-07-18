@@ -1,0 +1,16 @@
+section.container {
+  justify-content: flex-end;
+  padding: 64px 0;
+}
+
+aside {
+  position: absolute;
+  max-width: 245px;
+  left: 0;
+  background-color: #fff;
+  padding: 80px 0;
+}
+
+aside h1 {
+  font-size: 48px;
+}
