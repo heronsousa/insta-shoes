@@ -11,8 +11,8 @@ export function Footer() {
                         <p>Desenvolvido por: <strong>Heron Rodrigues</strong></p>
 
                         <div className="socials">
-                            <a href="https://www.linkedin.com/in/heronsousa/" target="_blank"> <img src={linkedin} alt="Linkedin Heron Rodrigues" /> </a>
-                            <a href="https://github.com/heronsousa" target="_blank"> <img src={github} alt="Github Heron Rodrigues" /> </a>
+                            <a href="https://www.linkedin.com/in/heronsousa/" target="_blank" rel="noreferrer noopener"> <img src={linkedin} alt="Linkedin Heron Rodrigues" /> </a>
+                            <a href="https://github.com/heronsousa" target="_blank" rel="noreferrer noopener"> <img src={github} alt="Github Heron Rodrigues" /> </a>
                         </div>
                     </div>
                 </main>
