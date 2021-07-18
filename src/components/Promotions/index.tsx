@@ -51,7 +51,14 @@ export function Promotions() {
                 <h1>Ofertas</h1>
 
                 <div className="products">
-                    {products1.map(product => <Card price={product.price} name={product.name} image={product.image} />)}
+                    {products1.map(product => (
+                        <Card
+                            key={product.name}
+                            price={product.price} 
+                            name={product.name} 
+                            image={product.image} 
+                        />
+                    ))}
                 </div>
 
                 <div className="mid-banner">
@@ -60,7 +67,14 @@ export function Promotions() {
                 </div>
 
                 <div className="products">
-                    {products2.map(product => <Card price={product.price} name={product.name} image={product.image} />)}
+                    {products2.map(product => (
+                        <Card
+                            key={product.name}
+                            price={product.price} 
+                            name={product.name} 
+                            image={product.image} 
+                        />
+                    ))}
                 </div>
             </section>
         </div>

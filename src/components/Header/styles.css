@@ -25,12 +25,12 @@ button {
   border: none;
 }
 
-form {
+form.search {
   display: flex;
   align-items: center;
 }
 
-form input {
+form.search input {
   border: none;
   background-color: var(--background-secondary);
   height: 40px;
@@ -38,7 +38,7 @@ form input {
   border-radius: 8px 0 0 8px;
 }
 
-form button {
+form.search button {
   height: 40px;
   width: 40px;
   background-color: var(--background-secondary);

@@ -20,7 +20,7 @@ export function Header() {
                         <a href="/">criança</a>
                     </div>
 
-                    <form>
+                    <form className="search">
                         <input type="text" placeholder="Ex.: Spring blade" />
                         <button type="submit">
                             <img src={search} alt="Buscar" />

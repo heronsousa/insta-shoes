@@ -2,6 +2,7 @@ import { Header } from './components/Header/index';
 import { HomeBanner } from './components/HomeBanner/index';
 import { Brands } from './components/Brands/index';
 import { Promotions } from './components/Promotions/index';
+import { Newsletter } from './components/Newsletter/index';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <HomeBanner />
       <Brands />
       <Promotions />
+      <Newsletter />
     </>
   );
 }

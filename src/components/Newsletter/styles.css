@@ -1,0 +1,30 @@
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  max-width: 700px;
+  text-align: center;
+  margin: 96px auto;
+}
+
+form.register-email {
+  height: 48px;
+}
+
+form.register-email input {
+  height: 100%;
+  min-width: 400px;
+  margin: 0 auto;
+  padding: 0 8px;
+  border-radius: 8px 0 0 8px;
+}
+
+form.register-email button {
+  color: var(--white);
+  font-size: 16px;
+  background-color: var(--brand);
+  padding: 0 24px;
+  height: 100%;
+  border-radius: 0 8px 8px 0;
+}
